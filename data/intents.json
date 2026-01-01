@@ -1,0 +1,134 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": ["Hi", "Hello", "Hey", "Good morning", "Good evening", "Hi there", "Hey there", "Hello bot", "Hi bot", "Hey buddy", "Good day", "Greetings", "Hi everyone"],
+      "responses": ["Hello! How can I help you?", "Hi there! What can I do for you today?", "Hey! How’s it going?", "Hello! Ready to answer your questions."]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["Bye", "See you", "Goodbye", "Talk later", "Catch you later", "Bye bot", "See you soon", "Farewell", "Later", "I am leaving"],
+      "responses": ["Goodbye!", "See you soon!", "Take care!", "Bye! Have a great day!", "Catch you later!"]
+    },
+    {
+      "tag": "thanks",
+      "patterns": ["Thanks", "Thank you", "Thank you so much", "Thanks a lot", "Much appreciated", "Thanks bot", "I appreciate it"],
+      "responses": ["You're welcome!", "Happy to help!", "Anytime!", "No problem!", "Always here to help!"]
+    },
+    {
+      "tag": "aiml_definition",
+      "patterns": ["What is AIML?", "Define AIML", "Tell me about AIML", "Explain AIML", "What does AIML mean?", "Can you explain AIML?", "What is AI and ML?", "Define Artificial Intelligence and Machine Learning"],
+      "responses": ["AIML stands for Artificial Intelligence and Machine Learning. It is used to build intelligent systems that can learn and make decisions.", "Artificial Intelligence & Machine Learning (AIML) helps machines mimic human intelligence and learn from data.", "AIML combines AI and ML to enable computers to perform tasks that normally require human intelligence."]
+    },
+    {
+      "tag": "deep_learning",
+      "patterns": ["Explain deep learning", "What is deep learning?", "Define DL", "Tell me about deep neural networks", "What are neural networks?"],
+      "responses": ["Deep Learning is a subset of ML that uses neural networks with multiple layers to model complex data.", "DL helps computers recognize patterns like images, speech, and text.", "Neural networks in deep learning mimic the human brain to process data efficiently."]
+    },
+    {
+      "tag": "nlp",
+      "patterns": ["Explain NLP", "What is natural language processing?", "Define NLP", "Tell me about NLP", "How computers understand language?"],
+      "responses": ["NLP allows computers to understand, interpret, and generate human language.", "Natural Language Processing is used in chatbots, translation, and sentiment analysis.", "NLP helps machines interact with humans in natural language."]
+    },
+    {
+      "tag": "computer_vision",
+      "patterns": ["What is computer vision?", "Explain CV", "Define computer vision", "Tell me about computer vision", "How machines see images?"],
+      "responses": ["Computer Vision enables machines to interpret and analyze images and videos.", "CV is used in facial recognition, self-driving cars, and image classification.", "It allows computers to extract meaningful information from visual data."]
+    },
+    {
+      "tag": "llm",
+      "patterns": ["What are LLMs?", "Explain large language models", "Define LLM", "Tell me about LLM", "How do language models work?"],
+      "responses": ["LLMs are AI models trained on large text datasets to generate human-like text.", "Large Language Models can answer questions, summarize text, and generate content.", "LLMs like GPT are used in chatbots, content creation, and coding assistance."]
+    },
+    {
+      "tag": "rag",
+      "patterns": ["What is RAG?", "Explain retrieval-augmented generation", "Define RAG", "Tell me about RAG", "How does RAG work?"],
+      "responses": ["RAG combines a knowledge base with a generative model to produce more accurate responses.", "It retrieves relevant information and generates answers using AI models.", "RAG is useful in question-answering systems and chatbots."]
+    },
+    {
+      "tag": "langchain",
+      "patterns": ["What is LangChain?", "Explain LangChain framework", "Define LangChain", "Tell me about LangChain", "How does LangChain work?"],
+      "responses": ["LangChain is a framework to build applications using large language models and structured data.", "It helps integrate AI models with external tools and databases.", "LangChain is used for creating intelligent AI workflows."]
+    },
+    {
+      "tag": "courses",
+      "patterns": ["What courses are available?", "Tell me about courses", "Available courses", "Courses offered", "Which courses do you provide?", "List the courses", "Courses in AIML", "AI course details"],
+      "responses": ["We offer courses in AI, Machine Learning, Data Science, Web Development, and Python programming.", "Our courses include AIML, Data Science, Web Development, and Python. Choose the one you like!", "You can learn AI, ML, Data Science, Web Development, and Python in our programs."]
+    },
+    {
+      "tag": "mentor",
+      "patterns": ["Who is the mentor?", "Mentor name", "Who is teaching this course?", "Instructor info", "Who is guiding the project?", "Mentor details"],
+      "responses": ["The mentor for this program is AIML PEP, providing guidance throughout the project.", "You will be guided by AIML PEP mentor for this program.", "Your mentor is AIML PEP, who will help you with all queries."]
+    },
+    {
+      "tag": "project_submission",
+      "patterns": ["How to submit the project?", "Project submission process", "Submission guidelines", "When is submission?", "How can I submit my project?", "Project upload"],
+      "responses": ["You can submit the project via the portal before the deadline. Make sure all pre-requisites and reports are complete.", "Project submission should be done online as per the guidelines provided by the mentor.", "Ensure your project folder, report, and PPT are ready before submission."]
+    },
+    {
+      "tag": "project_tips",
+      "patterns": ["Any tips for the project?", "How to make the project better?", "Project guidance", "Tips for college submission", "Best practices for project", "Project advice", "How to improve project"],
+      "responses": ["Make sure your code is clean, models are trained, and outputs are reproducible. Document everything clearly.", "Organize your folders, write a proper README, and take screenshots of outputs for submission.", "Follow best practices: clear code, trained models, and a professional report."]
+    },
+    {
+      "tag": "project_tools",
+      "patterns": ["What tools should I use?", "Required tools for project", "Project software", "Which tools are needed?", "Project requirements", "Libraries needed", "Tech stack for project"],
+      "responses": ["You can use Python, VS Code, and libraries like scikit-learn, NLTK, and Flask for this project.", "Required tools include Python, VS Code, Jupyter Notebook, and relevant ML libraries.", "Make sure to have Python and VS Code installed, along with the necessary ML libraries."]
+    },
+    {
+      "tag": "deadline",
+      "patterns": ["What is the deadline?", "Submission date", "Final date to submit project", "When is the project due?", "Project last date", "Deadline info"],
+      "responses": ["The project should be submitted in the first week of January 2026.", "Make sure your project is ready before the first week of January 2026.", "The final submission date is the first week of January 2026."]
+    },
+    {
+      "tag": "help",
+      "patterns": ["I need help", "How can you help me?", "Support needed", "Assistance required", "Can you guide me?", "I am stuck", "Help me with project"],
+      "responses": ["I can answer questions about courses, project submission, and AIML concepts. Try asking a specific question.", "Sure! I can guide you regarding your project, courses, or AIML topics.", "Ask me about courses, AIML, project submission, or deadlines and I will help you."]
+    },
+    {
+      "tag": "events",
+      "patterns": ["Any upcoming workshops?", "College events", "Seminars", "AI events", "Workshops schedule", "Events in college", "Upcoming events"],
+      "responses": ["The next AI workshop is in the first week of January.", "Check the college portal for upcoming seminars and events.", "We have workshops on AIML and Python scheduled this semester."]
+    },
+    {
+      "tag": "holidays",
+      "patterns": ["Holiday schedule", "Next holiday", "Vacation dates", "When is holiday?", "College off days", "Semester break"],
+      "responses": ["The next holiday is on January 26th.", "College holidays are listed in the academic calendar.", "You can check the portal for full holiday schedule."]
+    },
+    {
+      "tag": "library",
+      "patterns": ["Library timings", "Library resources", "Books available", "Library info", "Study material", "Library hours"],
+      "responses": ["The library is open from 9 AM to 6 PM.", "You can access e-books and journals via the library portal.", "Library resources include textbooks, journals, and research papers."]
+    },
+    {
+      "tag": "hostel",
+      "patterns": ["Hostel info", "Hostel timings", "Mess menu", "Accommodation details", "Hostel rules", "Room allocation"],
+      "responses": ["Hostel check-in is from 8 AM to 10 PM.", "Mess menu is updated weekly on the notice board.", "Hostel rules are available in your student handbook."]
+    },
+    {
+      "tag": "transport",
+      "patterns": ["Bus timings", "College transport", "Shuttle info", "Transport schedule", "Bus service", "How to reach college?"],
+      "responses": ["College buses run from 7 AM to 7 PM.", "Check the portal for bus routes and timings.", "Transport service covers all major routes to campus."]
+    },
+    {
+      "tag": "exams",
+      "patterns": ["Exam schedule", "Upcoming exams", "Exam dates", "How to prepare for exams?", "Exam timetable", "Semester exams info"],
+      "responses": ["Check the portal for the official exam schedule.", "Exams are conducted as per the academic calendar.", "Prepare in advance and follow your subject guidelines."]
+    },
+    {
+      "tag": "scholarships",
+      "patterns": ["Scholarships available", "Financial aid", "Any scholarships?", "Student funding", "Grants info", "How to apply for scholarship?"],
+      "responses": ["Scholarships are listed on the college website.", "You can apply for merit and need-based scholarships online.", "Check eligibility criteria before applying for scholarships."]
+    },
+    {
+      "tag": "faq",
+      "patterns": ["College timing?", "Semester start date?", "Class schedule?", "Fees details", "Admission process?", "Contact info", "Student ID info", "How to register?"],
+      "responses": ["College timing is 9 AM to 5 PM.", "Check the academic calendar for semester start dates.", "Fees and registration info are available on the student portal."]
+    },
+    {
+      "tag": "fallback",
+      "patterns": [],
+      "responses": ["Hmm, I am still learning. Can you ask something about AIML, courses, projects, or college info?", "I can answer questions about AIML, courses, projects, mentor guidance, and student life. Can you rephrase your question?", "I am not sure about that. Try asking about college events, courses, or project tips."]
+    }
+  ]
+}
